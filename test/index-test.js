@@ -1,10 +1,10 @@
 var index = require("../index.js")
 
 describe('what-is-a-test', () => {
-  describe('Name', () => {
-    if ("Joe" === "Susan") {
-      expect(index.name).toEqual('Susan')
-    }
+  describe('Joe', () => {
+    it('returns "Susan"', () => {
+      expect('Joe').toEqual('Susan')
+    })
   })
 
 
